@@ -1,0 +1,33 @@
+
+table {
+ border-collapse: collapse;
+ border: 2px solid black;
+}
+
+th, td {
+ border: 2px solid black;
+ text-align: center;
+ vertical-align: middle;
+ padding: 10px;
+}
+
+th {
+ background-color: #ddd;
+ font-weight: bold;
+}
+
+tr:nth-child(even) {
+ background-color: #d2d0d0;
+}
+
+.tab {
+ border: 2px solid #000000;
+}
+
+.table-primary {
+ background-color: #3e93e4;
+}
+
+.table-secondary {
+ background-color: #928c8c;
+}
